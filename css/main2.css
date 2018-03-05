@@ -1,0 +1,536 @@
+/* 1.页首信息栏 */
+.info{
+    height: 29px;
+    border: 1px solid #dddddd;
+    /* background-color: red; */
+}
+
+.info .infocon{
+    width: 1200px;
+    height: 29px;
+    margin: 0 auto;
+    
+    /* background-color:gold; */
+    
+}
+
+.info div{
+    line-height: 29px;
+    color: #666666;
+    font-family: "Mircosoft YaHei";
+}
+
+.info .div1{
+    float: left;
+    /* background-color: green; */
+}
+
+.info .div2{
+    float: right;
+    /* background-color: green; */
+}
+
+.info span{
+    margin:0 14px;
+}
+
+.info a{
+    text-decoration: none;
+    color: #666666;
+}
+
+.info a:hover{
+    color: red;
+}
+
+.info .user_info{
+    display: none;
+}
+
+.info .user{
+    color:orange;
+}
+
+/* 2.图片与搜索栏 */
+.head2{
+    height: 115px;
+    /* background-color: gold; */
+}
+
+.head2con{
+    width: 1200px;
+    height: 115px;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.head2con img{
+    float: left;
+}
+
+/* 2.2 */
+.search{
+    width: 616px;
+    height: 38px;
+    border: 1px solid #39a93e;
+    margin: 34px 91px 41px;
+    float: left;
+
+    background: url("../images/search.png") no-repeat;
+    
+}
+
+.search input{
+    /* text-indent: 35px; */
+    outline: none;
+    border: 0;
+    width: 481px;
+    height: 38px; 
+}
+
+.search span{
+    /* display: inline-block; */
+    width: 100px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    background-color: #39a93e;
+    color: white;
+    float: right;
+}
+
+/* 2.3 */
+.shop{
+    margin: 34px 0 41px;
+    font-size: 0px;
+
+    position: absolute;
+    right: 0px;
+}
+
+.shop a{
+    display: inline-block;
+    border: 1px solid #dddddd;
+    width: 158px;
+    height: 38px;
+   
+    font-size: 14px;
+    color: #37ab40;
+   
+    line-height: 38px;
+    text-decoration: none;
+    text-indent: 55px;
+    
+    background: url("../images/shopping-car.png") no-repeat;
+    background-color: #f7f7f7;
+}
+
+.shop a:hover{
+    color: red;
+    background-color: lightgray;
+}
+
+.shop .span2{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ff8800;
+}
+
+/* 3 */
+.toolbar{
+    height: 40px;
+    border-bottom: 2px solid #39a93e;
+}
+
+.toolbar .toolbarcon{
+    width: 1200px;
+    background-color: gold;
+    margin: 0 auto;
+}
+
+.toolbar .div1{
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+    font-family: "Mircosoft YaHei";
+    color: white;
+
+    line-height: 40px;
+    text-align: center;
+    margin-right: 34px;
+
+    background-color: #39a93e;
+
+}
+
+.toolbar ul{
+    list-style: none;
+    /* background-color: pink; */
+}
+
+.toolbar li{
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.toolbar span{
+    margin: 0 20px;
+}
+
+.toolbar a{
+    color: #666666;
+    text-decoration: none;
+}
+
+.toolbar a:hover{
+    color: red;
+}
+
+/* 4 */
+    /* 4.1 左边菜单部分 */
+.cate{
+    height: 269px;
+    /* background-color: gold; */
+}
+
+.catecon{
+    width: 1200px;
+    height: 269px;
+    margin: 0 auto;
+    /* background-color: green; */
+
+    position: relative;
+}
+
+.cate ul{
+    list-style: none;
+}
+
+.cate li{
+    width: 198px;
+    height: 44px;
+    font-size: 14px;
+    font-family: "mircosoft yahei";
+    line-height: 44px;
+    text-align: center;
+    border:1px solid #eeeeee;
+    border-top: 0;
+}
+
+.cate a{
+    display: inline-block;
+    width: 198px;
+    height: 44px;
+    text-decoration: none;
+    color: black;
+    
+    background: url("../images/right-arrors.png") no-repeat 178px -27px; 
+
+}
+
+.cate a:hover{
+    color: red;
+}
+
+/* 雪碧图背景的相关样式:同一张图片调整位置让多个元素使用 */
+.icon1{
+    background: url("../images/cate-icon.png") no-repeat 36px 10px; 
+}
+
+.icon2{
+    background: url("../images/cate-icon.png") no-repeat 36px -35px;
+}
+
+.icon3{
+    background: url("../images/cate-icon.png") no-repeat 36px -80px;
+}
+
+.icon4{
+    background: url("../images/cate-icon.png") no-repeat 36px -125px;
+}
+
+.icon5{
+    background: url("../images/cate-icon.png") no-repeat 36px -170px;
+}
+
+.icon6{
+    background: url("../images/cate-icon.png") no-repeat 36px -215px;
+}
+
+    /* 4.2 中间轮播图部分 */
+.turnpic{
+    width: 760px;
+    height: 270px;
+    background-color: #333333;
+    overflow: hidden;
+    
+    position: relative;
+    /* left: 282.5px; */
+    /* 取出行内元素间距 */
+    font-size: 0px;
+}
+
+/* 存放所有图片 */
+.turnpiccon{
+    width: 760px;
+    /* 动画效果内容设置定位,以免影响其它元素的文档流 */
+    position: absolute; 
+    left: 0;
+}
+
+/* 每个图片 */
+.turnpiccon img{
+    position: absolute;
+}
+
+
+.turnpic .arrow1,.turnpic .arrow2{
+    display: inline-block;
+    width: 15px;
+    height: 23px;
+    cursor: pointer;
+
+    position: absolute;
+}
+/* 两边的箭头 使用定位*/
+.arrow1{
+    top: 120px;
+    left: 10px;
+}
+
+.arrow2{
+    top: 129px;
+    right: 10px;
+}
+/* 浮点 */
+.spots{
+    position: absolute;
+    left: 0;
+    bottom: 9px;
+    width: 100%;
+    height: 9px;
+    text-align: center;
+    font-size: 0;
+}
+
+.spots li{
+    display: inline-block;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 0;
+    background-color: #666666;
+    cursor: pointer;
+}
+
+.spots .active{
+    background-color: red;
+}
+
+/* .spots span{
+    width: 11px;
+    height: 11px;
+    background-color: #9f9f9f;
+    margin-right: 11px;
+
+    border-radius: 5.5px;
+
+    cursor: pointer;
+}
+
+.spots .dot1{
+    position: absolute;
+    left: 0;
+}
+
+.spots .dot2{
+    position: absolute;
+    left: 22px;
+}
+
+.spots .dot3{
+    position: absolute;
+    left: 44px;
+}
+
+.spots .dot4{
+    position: absolute;
+    left: 66px;
+}
+
+.spots .dot5{
+    position: absolute;
+    left: 88px;
+}
+
+.spots .dot6{
+    position: absolute;
+    left: 110px;
+}
+
+.spots span:hover{
+    background-color: red;
+} */
+
+/* 右边的副图 */
+.subpic{
+    float: right;
+    font-size: 0;
+
+    position: absolute;
+    right: 0;
+}
+
+.subpic li{
+    width: 240px;
+    height: 135px;
+    border: 0;
+}
+
+/* 5 */
+.showmenu{
+    width: 1200px;
+    height: 38px;
+    margin: 17px auto 0;
+    border-bottom: 2px solid #42ac46;
+    /* background-color: gold; */
+
+    position: relative;
+}
+
+.showmenu ul{
+    list-style: none;
+    position: absolute;
+    left: 92px;
+}
+
+.showmenu li{
+    display: inline-block;
+}
+
+.showmenu h1{
+    font-size: 16px;
+    font-family: 'Mircosoft YaHei';
+    
+    line-height: 55px;
+    color: #37ab40;
+
+    /* float: left; */
+    position: absolute;
+    left: 0;
+}
+
+.showmenu span{
+    font-size: 12px;
+    font-family: "Mircosoft YaHei";
+    line-height: 55px;
+    margin-right: 12px;
+    color: #666666;
+}
+
+.showmenu a{
+    text-decoration: none;
+    color: #666666;
+}
+
+.showmenu a:hover{
+    color: red;
+}
+
+.showpic{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    /* background-color: gold; */
+}
+
+/* 右边的图片列表 */
+.showlist{
+    width: 1000px;
+    /* background-color: green; */
+    list-style: none;
+
+    position: relative;
+    font-size: 0px;
+}
+
+.showlist li{
+    width: 249px;
+    height: 299px;
+    border-right: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    float: left;
+    
+}
+
+.showlist span{
+    display: inline-block;
+    width: 249px;
+   
+    font-family: "mircosoft yahei";
+    
+    text-align: center;
+    position: absolute;
+}
+
+.showlist .span1{
+    top: 17px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.showlist .span2{
+    bottom: 15px;
+    font-size: 20px;
+    color: #c40000;
+}
+
+.showlist img{
+    margin: 0 auto;
+    position: absolute;
+    top:90px;
+}
+
+/* 6 底部信息栏 */
+.detail{
+    width: 1200px;
+    height: 155px;
+    margin: 0 auto;
+    /* background-color: green; */
+    color: #666666 !important;
+    text-align: center;
+}
+
+.detail ul{
+    margin-top: 37px;
+    list-style: none;
+}
+
+.detail li{
+    display: inline-block;
+}
+
+.detail a{
+    text-decoration: none;   
+    color: #666666;
+}
+
+.detail a:hover{
+    color: red;
+}
+
+.detail .div1{
+    margin: 10px 0;
+}
+
+.detail span{
+    margin: 0 5px;
+}

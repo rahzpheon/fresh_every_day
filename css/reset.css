@@ -1,0 +1,25 @@
+h1,p,ul,li,input,a,body{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::before,.clearfix::after{
+    content: "";
+    display: table;
+}
+
+.clearfix::after{
+    clear: both;
+}
+
+.clearfix{
+    zoom: 1;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
